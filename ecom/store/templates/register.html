@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<header class = "bg-dark py-5">
+	<div class = "container px-4 px-lg-5 my-5">
+		<div class = "text-center text-white">
+			<h1 class = "display-4 fw-bolder">New User</h1>
+			<p class = "lead fw-normal text-white-50 mb-0">Welcome to Online Dukan</p>
+		</div>
+	</div>
+</header>
+<div class = "container">
+	<div class = "row">
+
+		<div class = "col-md-6 offset-md-3">
+			<br><br>
+			<form action = "{% url 'register' %}" method = "post">
+				{% csrf_token %}
+				{{ form.as_p }}
+				<br>
+				<button class = "btn btn-secondary">Register</button>
+			</form>
+			<br><br>
+			<br><br>
+			<br><br>
+			<br><br>
+			<br><br>
+			<br><br>
+		</div>
+
+	</div>
+</div>
+{% endblock %}

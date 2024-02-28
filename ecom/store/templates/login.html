@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+<header class = "bg-dark py-5">
+	<div class = "container px-4 px-lg-5 my-5">
+		<div class = "text-center text-white">
+			<h1 class = "display-4 fw-bolder">Log In to your Account</h1>
+			<p class = "lead fw-normal text-white-50 mb-0">Welcome to Online Dukan</p>
+		</div>
+	</div>
+</header>
+<div class = "container">
+	<div class = "row">
+		<center>
+			<div class = "col-8">
+				<br><br>
+				<form method="post" action="{% url 'login' %}">
+					{% csrf_token %}
+					<div class = "mb-3">
+						<input  class = "form-control" type = "text" name="username" placeholder="Enter Your Username">
+					</div>
+					<div class = "mb-3">
+						<input class = "form-control"  type = "password" name="password" placeholder="Enter Your Password">
+					</div>
+					<br>
+					<button class = "btn btn-secondary" type = "submit">Login</button>
+				</form>
+				<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+			</div>
+		</center>
+	</div>
+</div>
+
+
+{% endblock %}

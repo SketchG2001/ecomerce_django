@@ -1,0 +1,40 @@
+<nav class = "navbar navbar-expand-lg navbar-light bg-light">
+	<div class = "container px-4 px-lg-5">
+		<a class = "navbar-brand" href = "{% url 'home' %}">Online Dukan</a>
+		<button aria-controls = "navbarSupportedContent" aria-expanded = "false" aria-label = "Toggle navigation"
+				class = "navbar-toggler" data-bs-target = "#navbarSupportedContent"
+				data-bs-toggle = "collapse" type = "button"><span class = "navbar-toggler-icon"></span>
+		</button>
+		<div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+			<ul class = "navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+				<li class = "nav-item"><a aria-current = "page" class = "nav-link active" href = "{% url 'home' %}">Home</a></li>
+				<li class = "nav-item"><a class = "nav-link" href = "{% url 'about' %}">About</a></li>
+				{% if user.is_authenticated %}
+				<li class = "nav-item"><a class = "nav-link" href = "{% url 'logout' %}">Logout</a></li>
+				{% else %}
+				<li class = "nav-item"><a class = "nav-link" href = "{% url 'login' %}">Login</a></li>
+				<li class = "nav-item"><a class = "nav-link" href = "{% url 'register' %}">Sign Up</a></li>
+				{% endif %}
+				<li class = "nav-item dropdown">
+					<a aria-expanded = "false" class = "nav-link dropdown-toggle" data-bs-toggle = "dropdown" href = "#"
+							id = "navbarDropdown" role = "button">Shop</a>
+					<ul aria-labelledby = "navbarDropdown" class = "dropdown-menu">
+						<li><a class = "dropdown-item" href = "#!">All Products</a></li>
+						<li>
+							<hr class = "dropdown-divider"/>
+						</li>
+						<li><a class = "dropdown-item" href = "#!">Popular Items</a></li>
+						<li><a class = "dropdown-item" href = "#!">New Arrivals</a></li>
+					</ul>
+				</li>
+			</ul>
+			<form class = "d-flex">
+				<button class = "btn btn-outline-dark" type = "submit">
+					<i class = "bi-cart-fill me-1"></i>
+					Cart
+					<span class = "badge bg-dark text-white ms-1 rounded-pill">0</span>
+				</button>
+			</form>
+		</div>
+	</div>
+</nav>

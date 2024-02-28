@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb48e0fe-ed2d-433c-913b-3d3853a531e4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ecom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/ecom/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/ecom/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/ecom/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/ecom/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/ecom/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/WhatsApp_Image_2024-02-17_at_3.20.36_PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/alex-lvrs-mTw_GePuRUE-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/boglarka-salamon-Xk7bmVJedvw-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/david-billings-NID5iadR7RE-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/henry-perks-BYm1kkFasEI-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/icons8-team-seDjj4dmC9s-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/ilya-gorborukov-t5BojIDbegQ-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/istockphoto-1144374316-1024x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/jj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/paolo-giubilato-ZwKCWVFdrcs-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/reuben-mansell-nwOip8AOZz0-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/rishabh-malhotra-83ypHTv6J2M-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/scott-warman-h4AGlo55tTA-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/shiwa-id-278FBsU-9II-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/migrations/0002_alter_category_options_product_is_sale_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/templates/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/store/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2cxIa6MQIu48vUrKNXrH09vVICk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/django tution/.venv/Scripts/black.exe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ecom\ecom\store\templates" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb48e0fe-ed2d-433c-913b-3d3853a531e4" name="Changes" comment="" />
+      <created>1709046863102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709046863102</updated>
+      <workItem from="1709046869755" duration="5354000" />
+      <workItem from="1709087054228" duration="10100000" />
+      <workItem from="1709097516296" duration="321000" />
+      <workItem from="1709118350844" duration="7035000" />
+      <workItem from="1709131970449" duration="4803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
