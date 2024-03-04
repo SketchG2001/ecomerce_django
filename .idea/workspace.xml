@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb48e0fe-ed2d-433c-913b-3d3853a531e4" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/ecom/cart/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/cart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/context_processors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/templates/cart_summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/cart/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/media/uploads/product/market.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/store/templates/category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/store/templates/category_summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/store/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/store/templates/update_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/store/templates/update_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom/store/templates/update_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/ecom/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/ecom/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/ecom/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/ecom/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/store/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/store/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/store/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/store/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/store/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/store/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/store/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/store/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/store/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/store/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/store/templates/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/store/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -162,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709136938540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial">
+      <option name="closed" value="true" />
+      <created>1709541355262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709541355262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
