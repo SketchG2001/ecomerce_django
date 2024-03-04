@@ -13,14 +13,17 @@
 	<link href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel = "stylesheet"/>
 	<!-- Core theme CSS (includes Bootstrap)-->
 	<link href = "{% static 'css/styles.css' %}" rel = "stylesheet"/>
+	<script crossorigin = "anonymous"
+			integrity = "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			src = "https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
 {% include 'navbar.html' %}
 {% if messages %}
 {% for message in messages %}
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
-  {{ message }}
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+<div class = "alert alert-warning alert-dismissible fade show" role = "alert">
+	{{ message }}
+	<button aria-label = "Close" class = "btn-close" data-bs-dismiss = "alert" type = "button"></button>
 </div>
 {% endfor %}
 
