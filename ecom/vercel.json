@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "ecom/wsgi.py",
+      "use": "@vercel/python",
+      "config": {"maxLambdaSize": "15mb", "runtime": "python3.10"}
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "ecom/wsgi.py"
+    }
+  ],
+  "env": {
+    "DJANGO_SETTINGS_MODULE": "ecom.settings"
+  }
+}
